@@ -1,0 +1,54 @@
+
+---------------------------
+
+Results From Path: 0
+
+Changed Files:
+Sürüm Test: Panel.php, 13277
+Sürüm Live: Panel.php, 13329
+
+Sürüm Test: Register.php, 1050
+Sürüm Live: Register.php, 1187
+
+Sürüm Test: Welcome.php, 2202
+Sürüm Live: Welcome.php, 2303
+
+
+There isn't any extra file from both servers
+---------------------------
+
+Results From Path: 1
+
+Changed Files:
+Sürüm Test: AlertModel.php, 1420
+Sürüm Live: AlertModel.php, 1376
+
+Sürüm Test: AnimalModel.php, 10156
+Sürüm Live: AnimalModel.php, 10160
+
+Sürüm Test: DailyMilkModel.php, 2150
+Sürüm Live: DailyMilkModel.php, 2146
+
+Sürüm Test: FeedModel.php, 1329
+Sürüm Live: FeedModel.php, 1362
+
+Sürüm Test: Firebase.php, 2018
+Sürüm Live: Firebase.php, 2014
+
+Sürüm Test: FirmModel.php, 2358
+Sürüm Live: FirmModel.php, 2362
+
+Sürüm Test: MessageModel.php, 911
+Sürüm Live: MessageModel.php, 895
+
+Sürüm Test: Neroty.php, 1086
+Sürüm Live: Neroty.php, 1272
+
+Sürüm Test: NoticeModel.php, 5740
+Sürüm Live: NoticeModel.php, 5664
+
+Sürüm Test: RoomModel.php, 1828
+Sürüm Live: RoomModel.php, 1812
+
+
+There isn't any extra file from both servers
