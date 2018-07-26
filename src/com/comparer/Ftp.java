@@ -19,7 +19,7 @@ class Ftp {
             System.out.println("\n\nFTP Module");
             System.out.println(Style.SEPERATOR);
             System.out.println("cmp [-of]");
-            System.out.println("upload [all|added|changed]");
+            System.out.println("upload [-all|-added|-changed] || <filename*>");
             System.out.println(Style.SEPERATOR);
             Scanner reader = new Scanner(System.in);
             String input = reader.nextLine();

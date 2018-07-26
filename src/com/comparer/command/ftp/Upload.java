@@ -17,7 +17,7 @@ public class Upload extends IFtpCommand {
 
     @Override
     public void process() {
-        if(!parameters.contains("all") && !parameters.contains("added") && !parameters.contains("changed")){
+        if (parameters.size() == 0 && options.size() == 0) {
             throw new UnsupportedOperationException("Not supported yet.");
         }
         try {
@@ -25,11 +25,20 @@ public class Upload extends IFtpCommand {
             FTPFile[] files2 = server2.getFiles(0);
 
             for (FTPFile file1 : files1) {
+                if (parameters.size() > 0) {
+                    int index = parameters.indexOf(file1.getName());
+                    if (index != -1) {
+                        server1.uploadFile(file1, server2);
+                        uploadedFiles.add(new UploadedFile(file1, "uploaded"));
+                        parameters.remove(index);
+                        continue;
+                    }
+                }
                 boolean found = false;
                 for (FTPFile file2 : files2) {
                     if (file1.getName().equals(file2.getName())) {
                         found = true;
-                        if(parameters.contains("changed") || parameters.contains("all")){
+                        if (options.contains("-changed") || options.contains("-all")) {
                             if (file1.getSize() != file2.getSize()) {
                                 server1.uploadFile(file1, server2);
                                 uploadedFiles.add(new UploadedFile(file1, "changed"));
@@ -38,7 +47,7 @@ public class Upload extends IFtpCommand {
                     }
                 }
                 if (!found) {
-                    if(parameters.contains("all") || parameters.contains("added")){
+                    if (options.contains("-all") || options.contains("-added")) {
                         server1.uploadFile(file1, server2);
                         uploadedFiles.add(new UploadedFile(file1, "added"));
                     }
@@ -54,7 +63,7 @@ public class Upload extends IFtpCommand {
 
     @Override
     public void print() {
-        if(uploadedFiles.isEmpty()){
+        if (uploadedFiles.isEmpty()) {
             System.out.println("No file found to upload");
         } else {
             System.out.println("Uploaded Files:");
