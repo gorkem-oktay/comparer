@@ -5,6 +5,11 @@
  */
 package com.comparer;
 
+import com.comparer.view.DB;
+import com.comparer.view.Ftp;
+import com.comparer.view.Style;
+import com.comparer.view.Test;
+
 import java.util.Scanner;
 
 /**
@@ -27,7 +32,9 @@ public class Main {
             if (input.equals("ftp")) {
                 Ftp.run();
             } else if (input.equals("db")) {
-
+                DB.run();
+            } else if (input.equals("test")) {
+                Test.run();
             } else if (input.equals("exit")) {
                 break;
             } else {

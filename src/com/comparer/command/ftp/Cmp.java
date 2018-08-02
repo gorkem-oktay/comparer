@@ -5,16 +5,16 @@
  */
 package com.comparer.command.ftp;
 
-import com.comparer.Style;
-import com.comparer.core.ExtraFile;
-import com.comparer.core.FilePair;
-import com.comparer.core.Result;
-import com.comparer.core.Server;
-import java.io.File;
+import com.comparer.core.view.Html;
+import com.comparer.view.Style;
+import com.comparer.core.ftp.ExtraFile;
+import com.comparer.core.ftp.FilePair;
+import com.comparer.core.ftp.Result;
+import com.comparer.core.ftp.Server;
 import java.io.IOException;
-import java.nio.charset.Charset;
 import java.util.ArrayList;
-import org.apache.commons.io.FileUtils;
+
+import com.jcraft.jsch.JSchException;
 import org.apache.commons.net.ftp.FTPFile;
 
 /**
@@ -29,6 +29,11 @@ public class Cmp extends IFtpCommand {
         super(command);
         this.results = new ArrayList<>();
     }
+
+    @Override
+    public void disconnectFromSSH() {}
+    @Override
+    public void connectToSSH() throws JSchException {}
 
     @Override
     public void process() {
@@ -84,13 +89,7 @@ public class Cmp extends IFtpCommand {
                 view += prepareView(result);
             }
             try {
-                File dir = new File("results");
-                if(!dir.exists()){
-                    dir.mkdir();
-                }
-                File file = new File("results/result.txt");
-                FileUtils.writeStringToFile(file, view, Charset.defaultCharset());
-                System.out.println("Results saved to file at " + file.getAbsolutePath());
+                Html.save(view);
             } catch (IOException ex) {
                 System.out.println("Couldn't write to file");
             }
@@ -100,48 +99,6 @@ public class Cmp extends IFtpCommand {
                 System.out.println("\nResults From Path: " + result.pathIndex);
 
                 System.out.println(prepareView(result));
-            }
-        }
-    }
-
-    private void printSingle(Result result){
-        if(result.changedFiles.isEmpty()){
-            System.out.println("\nThere isn't any changed file");
-        } else {
-            System.out.println("\nChanged Files:");
-            for(FilePair item : result.changedFiles){
-                System.out.println(server1.name + ": " + item.server1File.getName() + ", " + item.server1File.getSize());
-                System.out.println(server2.name + ": " + item.server2File.getName() + ", " + item.server2File.getSize());
-                System.out.println("");
-            }
-        }
-
-        if(result.extraFiles.isEmpty()){
-            System.out.println("\nThere isn't any extra file from both servers");
-        } else {
-            ArrayList<ExtraFile> extraFiles1 = new ArrayList<>();
-            ArrayList<ExtraFile> extraFiles2 = new ArrayList<>();
-
-            for(ExtraFile file : result.extraFiles){
-                if(file.server == 0){
-                    extraFiles1.add(file);
-                } else {
-                    extraFiles2.add(file);
-                }
-            }
-
-            for(int i = 0; i < 2; i++){
-                ArrayList<ExtraFile> extras = i == 0 ? extraFiles1 : extraFiles2;
-                Server server = i == 0 ? server1 : server2;
-
-                if(extras.isEmpty()){
-                    System.out.println("\nThere isn't any extra file from " + server.name);
-                } else {
-                    System.out.println("\nExtra files from " + server.name + ":");
-                    for(ExtraFile file : extras){
-                        System.out.println("File: " + file.file.getName());
-                    }
-                }
             }
         }
     }

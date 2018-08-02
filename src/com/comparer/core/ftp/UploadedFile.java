@@ -1,4 +1,4 @@
-package com.comparer.core;
+package com.comparer.core.ftp;
 
 import org.apache.commons.net.ftp.FTPFile;
 

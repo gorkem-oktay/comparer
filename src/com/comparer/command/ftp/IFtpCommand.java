@@ -1,7 +1,7 @@
 package com.comparer.command.ftp;
 
 import com.comparer.command.ICommand;
-import com.comparer.core.Server;
+import com.comparer.core.ftp.Server;
 
 import java.io.IOException;
 
@@ -15,15 +15,8 @@ public abstract class IFtpCommand extends ICommand {
     }
 
     @Override
-    public void execute(){
-        parseCommand();
-        try {
-            server1 = new Server("config/server1.json");
-            server2 = new Server("config/server2.json");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        process();
-        print();
+    public void initVars() throws IOException {
+        server1 = new Server("config/server1.json");
+        server2 = new Server("config/server2.json");
     }
 }

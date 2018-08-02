@@ -3,9 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.comparer.core;
+package com.comparer.core.ftp;
 
 import java.util.ArrayList;
+
 import org.apache.commons.net.ftp.FTPFile;
 
 /**

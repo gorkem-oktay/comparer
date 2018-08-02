@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.comparer;
+package com.comparer.view;
 
 /**
  *
@@ -12,4 +12,6 @@ package com.comparer;
 public class Style {
 
     public static final String SEPERATOR = "---------------------------";
+    public static final String DATABASES = "@database1                      @database2";
+    public static final String ROW =   "@name @type(@size) @nullable |@status|";
 }

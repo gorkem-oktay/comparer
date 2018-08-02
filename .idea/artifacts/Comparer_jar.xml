@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Comparer:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Comparer_jar</output-path>
+    <root id="archive" name="Comparer.jar">
+      <element id="module-output" name="Comparer" />
+      <element id="extracted-dir" path="$USER_HOME$/Documents/Java Libraries/json-20180130.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Documents/Java Libraries/mysql-connector-java-5.1.46/mysql-connector-java-5.1.46.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Documents/Java Libraries/sqljdbc_6.4/enu/mssql-jdbc-6.4.0.jre9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Documents/Java Libraries/commons-net-3.6/commons-net-3.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Documents/Java Libraries/sqljdbc_6.4/enu/mssql-jdbc-6.4.0.jre8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Documents/Java Libraries/commons-io-2.6/commons-io-2.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Documents/Java Libraries/sqljdbc_6.4/enu/mssql-jdbc-6.4.0.jre7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Documents/Java Libraries/jsoup-1.11.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Documents/Java Libraries/jsch-0.1.54.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

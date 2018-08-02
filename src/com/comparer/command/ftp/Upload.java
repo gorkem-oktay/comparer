@@ -1,6 +1,7 @@
 package com.comparer.command.ftp;
 
-import com.comparer.core.UploadedFile;
+import com.comparer.core.ftp.UploadedFile;
+import com.jcraft.jsch.JSchException;
 import org.apache.commons.net.ftp.FTPFile;
 
 import java.io.IOException;
@@ -14,6 +15,12 @@ public class Upload extends IFtpCommand {
         super(command);
         this.uploadedFiles = new ArrayList<>();
     }
+
+    @Override
+    public void disconnectFromSSH() {}
+
+    @Override
+    public void connectToSSH() throws JSchException {}
 
     @Override
     public void process() {

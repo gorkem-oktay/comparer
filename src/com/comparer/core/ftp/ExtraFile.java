@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.comparer.core;
+package com.comparer.core.ftp;
 
 import org.apache.commons.net.ftp.FTPFile;
 
@@ -16,7 +16,7 @@ public class ExtraFile {
     public FTPFile file;
     public int server;
 
-    ExtraFile(FTPFile file, int server){
+    public ExtraFile(FTPFile file, int server){
         this.file = file;
         this.server = server;
     }

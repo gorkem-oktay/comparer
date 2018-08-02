@@ -1,7 +1,7 @@
 {
-	"name": "Sürüm Live",
-	"url": "surum.org",
-	"username": "surum",
-	"password": "Fz[8W$]{Yjnp",
-	"pathes": ["/public_html/application/test"]
+  "name": "NAME_OF_THE_SERVER",
+  "url": "URL",
+  "username": "USERNAME",
+  "password": "PASSWORD",
+  "pathes": ["PATHES_TO_COMPARE"]
 }

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.comparer.core;
+package com.comparer.core.ftp;
 
 import java.io.File;
 import java.io.IOException;
@@ -37,10 +37,10 @@ public class Server {
         String fileAsString = new String(Files.readAllBytes(file.toPath()));
         JSONObject json = new JSONObject(fileAsString);
 
-        this.name = (String) json.get("name");
-        this.url = (String) json.get("url");
-        this.username = (String) json.get("username");
-        this.password = (String) json.get("password");
+        this.name = json.getString("name");
+        this.url = json.getString("url");
+        this.username = json.getString("username");
+        this.password = json.getString("password");
         this.pathes = new ArrayList<>();
 
         List<Object> tempPathes = json.getJSONArray("pathes").toList();

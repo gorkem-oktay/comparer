@@ -3,19 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.comparer;
+package com.comparer.view;
 
 import com.comparer.command.CommandFactory;
 import com.comparer.command.ICommand;
+
 import java.util.Scanner;
 
 /**
- *
  * @author zafiru
  */
-class Ftp {
-    static void run(){
-        while(true){
+public class Ftp {
+    public static void run() {
+        while (true) {
             System.out.println("\n\nFTP Module");
             System.out.println(Style.SEPERATOR);
             System.out.println("cmp [-of]");
@@ -23,13 +23,13 @@ class Ftp {
             System.out.println(Style.SEPERATOR);
             Scanner reader = new Scanner(System.in);
             String input = reader.nextLine();
-            if(input.equals("exit")){
+            if (input.equals("exit")) {
                 break;
             } else {
-                try{
-                    ICommand command = CommandFactory.init(input);
+                try {
+                    ICommand command = CommandFactory.init(input, "ftp");
                     command.execute();
-                } catch(UnsupportedOperationException ex) {
+                } catch (UnsupportedOperationException ex) {
                     System.out.println("unsupported opreation");
                     System.out.println("operations: cmp, upload");
                 }

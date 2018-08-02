@@ -1,0 +1,15 @@
+{
+  "type": "DATABASE_TYPE",
+  "host": "HOST",
+  "port": PORT,
+  "database": "DATABASE_NAME",
+  "username": "USERNAME",
+  "password": "PASSWORD",
+  "ssh": {
+    "host": "SSH_HOST",
+    "port": "SSH_PORT",
+    "user": "USER",
+    "password": "PASSWORD",
+    "private_key": "PRIVATE_KEY_PATH"
+  }
+}

@@ -1,7 +1,7 @@
 {
-	"name": "Sürüm Test",
-	"url": "surum.serv.is",
-	"username": "surum@serv.is",
-	"password": "s123s456s",
-	"pathes": ["/application/test"]
+  "name": "NAME_OF_THE_SERVER",
+  "url": "URL",
+  "username": "USERNAME",
+  "password": "PASSWORD",
+  "pathes": ["PATHES_TO_COMPARE"]
 }

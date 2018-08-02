@@ -1,15 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Comparer:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2eb908a4-144f-4da5-bd32-785824d6226c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Comparer_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/database1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/database2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/comparer/command/db/Cmp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/comparer/command/db/IDBCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/comparer/core/SSH.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/comparer/core/database/Column.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/comparer/core/database/DatabaseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/comparer/core/database/ExtraTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/comparer/core/database/IDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/comparer/core/database/MSSQLDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/comparer/core/database/MySQLDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/comparer/core/database/Table.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/comparer/core/database/TablePair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/comparer/core/view/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/comparer/core/view/Html.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/comparer/view/DB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/comparer/view/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/database/result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/database/row.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/database/table_added.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/database/table_changed.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Comparer/com/comparer/Ftp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Comparer/com/comparer/Ftp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Comparer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Comparer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/server1.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/server1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/server2.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/server2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Comparer/com/comparer/Ftp.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Comparer/com/comparer/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Comparer/com/comparer/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Comparer/com/comparer/Style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Comparer/com/comparer/command/CommandFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Comparer/com/comparer/command/CommandFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Comparer/com/comparer/command/ICommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Comparer/com/comparer/command/ICommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Comparer/com/comparer/command/ftp/Cmp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Comparer/com/comparer/command/ftp/Cmp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Comparer/com/comparer/command/ftp/IFtpCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Comparer/com/comparer/command/ftp/IFtpCommand.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Comparer/com/comparer/command/ftp/Upload.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Comparer/com/comparer/command/ftp/Upload.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Comparer/com/comparer/core/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Comparer/com/comparer/core/Server.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/comparer/Ftp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comparer/Ftp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Comparer/com/comparer/core/ExtraFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Comparer/com/comparer/core/FilePair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Comparer/com/comparer/core/Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Comparer/com/comparer/core/Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Comparer/com/comparer/core/UploadedFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/comparer/Ftp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comparer/view/Ftp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/comparer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comparer/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/comparer/Style.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comparer/view/Style.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/comparer/command/CommandFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comparer/command/CommandFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/comparer/command/ICommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comparer/command/ICommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/comparer/command/ftp/Cmp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comparer/command/ftp/Cmp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/comparer/command/ftp/IFtpCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comparer/command/ftp/IFtpCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/comparer/command/ftp/Upload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comparer/command/ftp/Upload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/comparer/core/ExtraFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comparer/core/ftp/ExtraFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/comparer/core/FilePair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comparer/core/ftp/FilePair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/comparer/core/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comparer/core/ftp/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/comparer/core/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comparer/core/ftp/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/comparer/core/UploadedFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comparer/core/ftp/UploadedFile.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/comcomparermaven/target/" />
@@ -22,13 +73,85 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Server.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/comparer/core/Server.java">
+      <file leaf-file-name="Cmp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/comparer/command/db/Cmp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="125">
+              <caret line="138" column="43" lean-forward="true" selection-start-line="138" selection-start-column="43" selection-end-line="138" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#580#581#0" expanded="true" />
+                <element signature="e#610#611#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database1.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/database1.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database2.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/database2.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="127">
+                <caret line="9" selection-start-line="9" selection-end-line="15" selection-end-column="5" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server1.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/server1.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server2.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/server2.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Style.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/comparer/view/Style.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="15" column="70" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Column.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/comparer/core/database/Column.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+              <folding>
+                <element signature="e#677#678#0" expanded="true" />
+                <element signature="e#733#734#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -37,8 +160,8 @@
       <file leaf-file-name="Cmp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/comparer/command/ftp/Cmp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="104" column="5" lean-forward="true" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="5" />
+            <state relative-caret-position="1500">
+              <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,56 +169,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Upload.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/comparer/command/ftp/Upload.java">
+      <file leaf-file-name="Html.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/comparer/core/view/Html.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-280">
-              <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+            <state relative-caret-position="283">
+              <caret line="93" column="42" selection-start-line="93" selection-start-column="42" selection-end-line="93" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/comparer/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ftp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/comparer/Ftp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="226">
-                <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="server1.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/server1.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="1" lean-forward="true" selection-end-line="6" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -105,6 +186,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin File" />
         <option value="Class" />
       </list>
     </option>
@@ -115,26 +197,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/com/comparer/core/Table.java" />
+        <option value="$PROJECT_DIR$/src/com/comparer/core/Column.java" />
+        <option value="$PROJECT_DIR$/src/com/comparer/core/MySQLDB.java" />
+        <option value="$PROJECT_DIR$/src/com/comparer/core/MSSQLDB.java" />
+        <option value="$PROJECT_DIR$/src/com/comparer/core/DatabaseFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/comparer/core/IDatabase.java" />
+        <option value="$PROJECT_DIR$/src/com/comparer/core/SSHConfig.java" />
+        <option value="$PROJECT_DIR$/src/com/comparer/core/database/DatabaseFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/comparer/core/server/ExtraFile.java" />
+        <option value="$PROJECT_DIR$/src/com/comparer/core/server/FilePair.java" />
         <option value="$PROJECT_DIR$/src/com/comparer/core/Result.java" />
-        <option value="$PROJECT_DIR$/src/com/comparer/command/server/Cmp.java" />
-        <option value="$PROJECT_DIR$/src/com/comparer/command/server/Upload.java" />
-        <option value="$PROJECT_DIR$/src/com/comparer/command/server/IServerCommand.java" />
-        <option value="$PROJECT_DIR$/src/com/comparer/command/ftp/IServerCommand.java" />
+        <option value="$PROJECT_DIR$/src/com/comparer/core/ftp/Result.java" />
+        <option value="$PROJECT_DIR$/src/com/comparer/view/Ftp.java" />
+        <option value="$PROJECT_DIR$/src/com/comparer/core/database/ColumnComparator.java" />
+        <option value="$PROJECT_DIR$/src/com/comparer/core/SSHConnection.java" />
+        <option value="$PROJECT_DIR$/src/com/comparer/core/SSH.java" />
+        <option value="$PROJECT_DIR$/src/com/comparer/command/ftp/IFtpCommand.java" />
+        <option value="$PROJECT_DIR$/src/com/comparer/core/database/MSSQLDB.java" />
+        <option value="$PROJECT_DIR$/src/com/comparer/command/ftp/Upload.java" />
         <option value="$PROJECT_DIR$/src/com/comparer/command/ICommand.java" />
-        <option value="$PROJECT_DIR$/src/com/comparer/Style.java" />
-        <option value="$PROJECT_DIR$/src/com/comparer/core/FilePair.java" />
-        <option value="$PROJECT_DIR$/src/com/comparer/core/ExtraFile.java" />
-        <option value="$PROJECT_DIR$/src/com/comparer/command/CommandFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/comparer/command/db/IDBCommand.java" />
+        <option value="$PROJECT_DIR$/src/com/comparer/core/database/TablePair.java" />
+        <option value="$PROJECT_DIR$/style/DatabaseResult.html" />
+        <option value="$PROJECT_DIR$/style/Database/result.html" />
+        <option value="$PROJECT_DIR$/style/Database/table.html" />
+        <option value="$PROJECT_DIR$/style/Database/row.html" />
+        <option value="$PROJECT_DIR$/src/com/comparer/core/view/HtmlReader.java" />
+        <option value="$PROJECT_DIR$/src/com/comparer/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/comparer/view/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/comparer/core/database/IDatabase.java" />
+        <option value="$PROJECT_DIR$/src/com/comparer/core/database/Table.java" />
+        <option value="$PROJECT_DIR$/src/com/comparer/core/database/MySQLDB.java" />
+        <option value="$PROJECT_DIR$/style/database/row.html" />
+        <option value="$PROJECT_DIR$/style/database/table.html" />
+        <option value="$PROJECT_DIR$/results/result.html" />
+        <option value="$PROJECT_DIR$/style/database/table_added.html" />
+        <option value="$PROJECT_DIR$/src/com/comparer/core/view/Component.java" />
+        <option value="$PROJECT_DIR$/src/com/comparer/core/database/ExtraTable.java" />
+        <option value="$PROJECT_DIR$/style/database/result.html" />
+        <option value="$PROJECT_DIR$/src/com/comparer/view/DB.java" />
+        <option value="$PROJECT_DIR$/src/com/comparer/command/ftp/Cmp.java" />
+        <option value="$PROJECT_DIR$/style/database/tables_console.txt" />
+        <option value="$PROJECT_DIR$/src/com/comparer/core/view/Html.java" />
+        <option value="$PROJECT_DIR$/src/com/comparer/core/database/Column.java" />
+        <option value="$PROJECT_DIR$/src/com/comparer/view/Style.java" />
+        <option value="$PROJECT_DIR$/src/com/comparer/command/db/Cmp.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/config/database1.json" />
+        <option value="$PROJECT_DIR$/config/database2.json" />
         <option value="$PROJECT_DIR$/config/server1.json" />
         <option value="$PROJECT_DIR$/config/server2.json" />
-        <option value="$PROJECT_DIR$/src/com/comparer/command/ftp/IFtpCommand.java" />
-        <option value="$PROJECT_DIR$/src/com/comparer/core/UploadedFile.java" />
-        <option value="$PROJECT_DIR$/src/com/comparer/command/ftp/Cmp.java" />
-        <option value="$PROJECT_DIR$/src/com/comparer/core/Server.java" />
-        <option value="$PROJECT_DIR$/src/com/comparer/command/ftp/Upload.java" />
-        <option value="$PROJECT_DIR$/src/com/comparer/Ftp.java" />
-        <option value="$PROJECT_DIR$/src/com/comparer/Main.java" />
-        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -157,18 +270,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Comparer" type="cbb8eebc:String" user="Comparer" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,10 +282,33 @@
               <item name="Comparer" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Comparer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Comparer" type="462c0819:PsiDirectoryNode" />
+              <item name="style" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Comparer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Comparer" type="462c0819:PsiDirectoryNode" />
+              <item name="style" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Comparer" type="cbb8eebc:String" user="Comparer" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -194,12 +318,15 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/style/Database" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/config" />
     </key>
@@ -245,7 +372,11 @@
       <workItem from="1532089767856" duration="1509000" />
       <workItem from="1532428388736" duration="2601000" />
       <workItem from="1532522883336" duration="3103000" />
-      <workItem from="1532587234219" duration="3213000" />
+      <workItem from="1532587234219" duration="12504000" />
+      <workItem from="1532674441256" duration="9345000" />
+      <workItem from="1532935348524" duration="14342000" />
+      <workItem from="1533020265357" duration="6682000" />
+      <workItem from="1533193901382" duration="3303000" />
     </task>
     <task id="LOCAL-00001" summary="First init">
       <created>1532523557895</created>
@@ -254,11 +385,18 @@
       <option name="project" value="LOCAL" />
       <updated>1532523557895</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Readme added.&#10;function to upload specific file added.">
+      <created>1532591706201</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1532591706201</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16068000" />
+    <option name="totallyTimeSpent" value="59031000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -266,32 +404,32 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.328877" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.328877" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.328877" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3275401" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24609375" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.328877" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34893048" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3275401" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.661191" visible="true" weight="0.24609375" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info id="Structure" order="1" sideWeight="0.33880904" side_tool="true" visible="true" weight="0.24609375" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39973262" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.328125" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,249 +440,19 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First init" />
-    <option name="LAST_COMMIT_MESSAGE" value="First init" />
+    <MESSAGE value="Readme added.&#10;function to upload specific file added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Readme added.&#10;function to upload specific file added." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="17" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/comparer/core/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="69" column="45" selection-start-line="69" selection-start-column="45" selection-end-line="69" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparer/command/ftp/Cmp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="74" column="33" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparer/command/ftp/Upload.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparer/core/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparer/command/ftp/Cmp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="74" column="33" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparer/command/ftp/Upload.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparer/core/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="62" column="47" lean-forward="true" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparer/command/ftp/Upload.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="41" column="37" lean-forward="true" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparer/core/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparer/command/ftp/IFtpCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparer/command/ftp/Cmp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="84" column="36" lean-forward="true" selection-start-line="84" selection-start-column="36" selection-end-line="84" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparer/command/ICommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparer/Ftp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparer/core/UploadedFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparer/core/Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparer/core/ExtraFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparer/command/CommandFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparer/command/ftp/Upload.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="52" column="37" lean-forward="true" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparer/core/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparer/command/ftp/IFtpCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparer/command/ftp/Cmp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="70" column="8" selection-start-line="70" selection-start-column="8" selection-end-line="79" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparer/command/ICommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparer/Ftp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparer/command/CommandFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/comparer/command/ftp/Upload.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="44" column="32" lean-forward="true" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -555,92 +463,10 @@
     <entry file="file://$PROJECT_DIR$/results/result.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparer/Style.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparer/core/FilePair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparer/core/Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparer/core/UploadedFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparer/core/ExtraFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="5" selection-start-line="15" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/server2.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Documents/Java Libraries/commons-net-3.6/commons-net-3.6.jar!/org/apache/commons/net/ftp/FTPClient.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="387">
           <caret line="369" selection-start-line="369" selection-end-line="369" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparer/command/ICommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparer/core/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparer/command/ftp/IFtpCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparer/command/CommandFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -651,57 +477,324 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparer/command/ftp/Upload.java">
+    <entry file="file://$PROJECT_DIR$/src/com/comparer/core/Database.kt" />
+    <entry file="jar://$USER_HOME$/Documents/Java Libraries/json-20180130.jar!/org/json/JSONObject.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-280">
-          <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+        <state relative-caret-position="15942">
+          <caret line="1237" selection-start-line="1237" selection-end-line="1237" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/surum_rsa.pem" />
+    <entry file="file://$PROJECT_DIR$/src/com/comparer/core/ftp/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/comparer/core/ftp/UploadedFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/comparer/core/ftp/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/comparer/core/ftp/FilePair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/comparer/core/database/ColumnComparator.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="1152" column="15" selection-start-line="1152" selection-start-column="15" selection-end-line="1152" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/comparer/core/SSHConfig.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/comparer/command/ftp/IFtpCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparer/Ftp.java">
+    <entry file="file://$PROJECT_DIR$/src/com/comparer/core/database/MSSQLDB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/comparer/command/ftp/Upload.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/comparer/core/SSH.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-109">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/comparer/core/database/TablePair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/comparer/view/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/server1.json">
+    <entry file="file://$PROJECT_DIR$/src/com/comparer/core/database/IDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="56" column="37" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/result.html" />
+    <entry file="file://$PROJECT_DIR$/src/com/comparer/core/database/MySQLDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="53" column="34" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/database/row.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/comparer/core/ftp/ExtraFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/comparer/core/database/Table.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/database/table_changed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/comparer/core/database/ExtraTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/comparer/core/view/Component.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="1" lean-forward="true" selection-end-line="6" selection-end-column="1" />
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/database/table_added.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/database/result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/comparer/command/CommandFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/comparer/view/Ftp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="24" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/comparer/command/db/IDBCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="26" column="53" lean-forward="true" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/comparer/command/ICommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/database/tables_console.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="44" selection-start-column="44" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/comparer/view/DB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/comparer/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        <state relative-caret-position="221">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/comparer/core/database/DatabaseFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/comparer/command/ftp/Cmp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="104" column="5" lean-forward="true" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="5" />
+        <state relative-caret-position="1500">
+          <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/comparer/core/view/Html.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="93" column="42" selection-start-line="93" selection-start-column="42" selection-end-line="93" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/comparer/core/database/Column.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding>
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/comparer/view/Style.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" column="70" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/comparer/command/db/Cmp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="138" column="43" lean-forward="true" selection-start-line="138" selection-start-column="43" selection-end-line="138" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="226">
-            <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <first_editor relative-caret-position="127">
+            <caret line="9" selection-start-line="9" selection-end-line="15" selection-end-column="5" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/server2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/server1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -711,10 +804,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>Comparer:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -762,6 +857,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
